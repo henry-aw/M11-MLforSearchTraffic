@@ -18,10 +18,11 @@ This is divided into the following sections:
 ---
 
 ## Technologies & Usage
-This project leverages scikit-learn, Python 3.7, and the Pandas library with the following requirements and dependencies:
+This project leverages Python 3.7, Facebook Prophet, Google search data, and the Pandas library with the following requirements and dependencies:
 - import pandas as pd
+- import holoviews as hv
+- from fbprophet import Prophet
 - import hvplot.pandas
-- from path import Path
-- from sklearn.cluster import KMeans
-- from sklearn.decomposition import PCA
-- from sklearn.preprocessing import StandardScaler
+- import datetime as dt
+- %matplotlib inline
+- import numpy as np
